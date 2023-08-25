@@ -17,9 +17,7 @@ app.use("/api/v1", routes);
 
 
 //start server
-app.listen(PORT, () => {
-    console.log(`Server started successfully at ${PORT}`);
-})
+app.listen(PORT, '192.168.29.165')
 
 // connect to the database
 const dbConnect = require("./config/database");
